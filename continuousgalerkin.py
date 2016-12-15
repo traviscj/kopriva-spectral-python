@@ -1,5 +1,5 @@
 #!/usr/bin/python
-# continuousgallerkin.py
+# continuousgalerkin.py
 #
 # Created by Travis Johnson on 2010-05-31.
 # Copyright (c) 2010 . All rights reserved.
@@ -83,4 +83,4 @@ x, phi = CGDerivativeMatrixIntegrator(25, NT, 25, t, lambda x: sin(pi*(x+1)))
 # print len(x)
 # print len(phi)
 plot(x,phi)
-savefig('continuousgallerkin.png')
+savefig('continuousgalerkin.png')
